@@ -1,0 +1,126 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_principal">
+
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/imagen_fija" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="177dp"
+        android:layout_height="59dp"
+        android:fontFamily="@font/fresca"
+        android:gravity="center"
+        android:text="@string/ajustes"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6">
+
+
+        <Button
+            android:id="@+id/sobre_app"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/container"
+            android:fontFamily="@font/fresca"
+            android:onClick="onClick"
+            android:padding="10dp"
+            android:text="@string/btn_info"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/fondo_carga"
+            app:strokeWidth="2dp" />
+
+        <Button
+            android:id="@+id/sobre_nosotras"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/container"
+            android:fontFamily="@font/fresca"
+            android:textColor="@color/white"
+            android:onClick="onClick"
+            android:text="@string/btn_desarrolladoras"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/fondo_carga"
+            app:strokeWidth="2dp"/>
+
+        <Button
+            android:id="@+id/ods"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/container"
+            android:fontFamily="@font/fresca"
+            android:textColor="@color/white"
+            android:onClick="onClick"
+            android:text="@string/btn_ods"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/fondo_carga"
+            app:strokeWidth="2dp"/>
+
+        <Button
+            android:id="@+id/misdatos"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/container"
+            android:fontFamily="@font/fresca"
+            android:textColor="@color/white"
+            android:onClick="onClick"
+            android:text="@string/btn_datos"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/fondo_carga"
+            app:strokeWidth="2dp"/>
+
+        <Button
+            android:id="@+id/progreso"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/container"
+            android:fontFamily="@font/fresca"
+            android:textColor="@color/white"
+            android:onClick="onClick"
+            android:text="@string/btn_progreso"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/fondo_carga"
+            app:strokeWidth="2dp"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

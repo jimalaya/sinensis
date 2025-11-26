@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Sinensis</string>
+    <string name="titulo">Sinensis</string>
+
+    <!--Ajustes-->
+    <string name="sobre_la_app">Sinensis es una app enfocada en el alivio del estrés a través de la creatividad. Dispone de un amplio catálogo de actividades que te ayudarán a conectar tranquilamente con el momento presente.</string>
+    <string name="creadoras">Esta app fue desarrollada por tres estudiantes de Ingeniería de Sonido e Imagen de la Universidad Carlos III de Madrid: \n - Inés Acebes,\n - Paula Gallejones  \n - Jimena Díaz.</string>
+    <string name="ods">La ODS (Objetivos y Metas de Desarrollo Sostenible) a la que está enfocada esta app es a Salud y Bienestar.</string>
+    <string name="progreso">Si has conseguido 100 tokens, echa un vistazo a la lista de todas las actividades y verás que se habrán desploqueado las más especiales</string>
+    <string name="progreso2">Ya has llegado a 70 tokens, ¿quieres eliminar las actividades más fuertes? Estas son: </string>
+    <string name="calendario">Añade esta actividad a tu calendario:</string>
+    <string name="eliminar">Si no te interesa la actividad, pulsa el botón y se eliminará de tu plan</string>
+    <string name="datos">Los datos que has introducido son: \n - Tu nombre: %s \n - Tu edad: %s \n - Tu grado de estrés: %s</string>
+
+    <!--Datos-->
+    <string name="titulo_formulario">Bienvenido a Sinensis. Es preciso para nosotros saber tus datos.</string>
+    <string name="enviar">Enviar</string>
+    <string name="nivel">Nivel: </string>
+    <string name="estresado">¿Qué tan estresado te sientes?</string>
+    <string name="edad">Introduce tu edad</string>
+    <string name="nombre">Introduce tu nombre</string>
+    <string name="edad1">¿Cuántos años tienes?</string>
+    <string name="nombre1">¿Cómo te llamas?</string>
+    <string name="nivel_bajo">Bajo</string>
+    <string name="nivel_mediobajo">Medio bajo</string>
+    <string name="nivel_medio">Medio</string>
+    <string name="nivel_medioalto">Medio alto</string>
+    <string name="nivel_alto">Alto</string>
+    <string name="rellenar_datos">Rellena todos los campos</string>
+    <string name="aceptar">Aceptar</string>
+
+
+    <!--Mentores-->
+    <string name="elegir">Elige tu mentor</string>
+    <string name="descripcion_ines">Inés \n Te dará ejercicios con más movimiento y para disfrutar al aire libre</string>
+    <string name="descripcion_paula">Paula \n Planificará actividades más relajantes y mentales</string>
+    <string name="descripcion_jimena">Jimena \n  Te ayudará con ejercicios en casa y de meditación </string>
+
+
+    <!--Principal-->
+    <string name="bienvenida">¡Hola %s! Estas son las actividades añadidas a tu plan. Seleccione alguna de ellas para empezar y añadirlas a tus recordatorios.</string>
+    <string name="anadir">Añadir actividad</string>
+    <string name="mensaje">¡Bienvenido! Recoge tu recompensa diaria y cuéntanos como te sientes hoy</string>
+
+    <!--Actividad-->
+    <string name="fecha">Elegir fecha</string>
+    <string name="hora">Elegir hora</string>
+    <string name="cal">Añadir</string>
+    <string name="si">Si</string>
+    <string name="moneditas">Recoge tu recompensa al terminar la actividad</string>
+    <string name="btn_eliminar">Eliminar actividad</string>
+    <string name="alerta">¿Seguro que quieres eliminar esta actividad?</string>
+    <string name="cancelar">Cancelar</string>
+
+    <!--Ajustes-->
+    <string name="ajustes">Ajustes</string>
+    <string name="btn_info">Sobre Sinensis</string>
+    <string name="btn_desarrolladoras">Sobre las desarrolladoras</string>
+    <string name="btn_ods">Sobre la ODS</string>
+    <string name="btn_datos">Mis datos</string>
+    <string name="btn_progreso">Mi progreso</string>
+
+    <!--Pop-Up Ajustes-->
+    <string name="cerrar">Cerrar</string>
+    <string name="btn_elimi">Eliminar actividades</string>
+
+    <!--Mapa-->
+    <string name="google_api_key" translatable="false">AIzaSyDBrKizRUyqs4d4CMgNzUFZK-Yv3kmTt7g</string>
+    <string name="ubi_vacia">La ubicación actual está vacía</string>
+    <string name="parques">Parques en tu zona:</string>
+    <string name="spas">Spas en tu zona:</string>
+
+    <!--ENLACES-->
+    <string name="enlace_estiramientos">https://www.youtube.com/watch?v=BaPLtt2w3AM&amp;list=PLNH7cFJ42PKgirbDO9op6TMj8nvjaqlvJ</string>
+    <string name="enlace_yoga">https://www.youtube.com/watch?v=a01D1PzTVFc&amp;list=PLNH7cFJ42PKi-Gziz-jaNHj-JgLWrLt0r</string>
+    <string name="enlace_spotify">https://open.spotify.com/</string>
+    <string name="enlace_libros_autoayuda">https://lamenteesmaravillosa.com/los-9-mejores-libros-de-autoayuda-y-superacion-personal/</string>
+    <string name="enlace_loto">https://www.youtube.com/watch?v=5LBtBzi8Djg</string>
+    <string name="enlace_cocinar">https://www.recetasgratis.net/</string>
+    <string name="enlace_marciales_abuelos">https://vimeopro.com/zeninmovement/zen-en-movimiento-en-las-artes-marciales/video/246627264</string>
+    <string name="enlace_maricales_jovenes">https://psicologiaymente.com/cultura/tipos-de-artes-marciales</string>
+    <string name="enlace_leer_abuelos">https://www.cosmopolitan.com/es/consejos-planes/familia-amigos/g38043810/mejores-libros-adolescentes/</string>
+    <string name="enlace_leer_jovenes">https://stylelovely.com/galeria/libros-tienes-leer/161898/image/161925</string>
+    <string name="enlace_cartelera">https://www.filmaffinity.com/es/cat_new_th_es.html</string>
+    <string name="enlace_calendario">https://calendar.google.com</string>
+    <string name="enlace_ods">https://www.un.org/sustainabledevelopment/es/health/</string>
+
+    <!--TOAST-->
+    <string name="actividad_eliminada">Actividad eliminada</string>
+    <string name="actividades_eliminadas">Actividad/es eliminadas</string>
+    <string name="actividad_seleccionada">Actividad seleccionada</string>
+    <string name="actividad_ya_anadida">Esta actividad ya esta añadida a tu plan</string>
+    <string name="actividad_bloqueada">Aún no has desbloqueado la actividad</string>
+    <string name="monedas">Monedas acumuladas: %d</string>
+    <string name="solo_un_dia">Vuelve mañana para volver a contarnos cómo estas</string>
+    <string name="play">Play</string>
+    <string name="pause">Pausa</string>
+
+    <!--NOMBRE DE ACTIVIDADES-->
+    <string name="respiraciones_guiadas">Respiraciones guiadas</string>
+    <string name="sonidos_relajantes">Sonidos Relajantes</string>
+    <string name="audioguia">Audioguía</string>
+
+    <!--ESTADO DE ÁNIMO-->
+    <string name="estado_bien">¡Muy bien! Sigue así, te felicitamos por tu progreso. \nVuelve mañana para contarnos qué tal estás.</string>
+    <string name="estado_regular">¡Bien! Sique realizando las actividades y no te desamines. \nVuelve mañana para contarnos qué tal estás.</string>
+    <string name="estado_mal">¡Vaya! Te recomendamos realizar algunas actividades de tu plan para mejorar. ¡No te desanimes! \nVuelve mañana para contarnos qué tal estás.</string>
+    <string name="seek_bar">Ahora mismo este es tu estado de ánimo. Irá aumentando o disminuyendo dependiendo de cómo te sientas cada día.</string>
+    <string name="pregunta_animo">¿Cómo te sientes hoy?</string>
+
+
+    <string name="bienvenida_todas_actividades">Aquí puedes observar todas las actividades. Selecciona las que quieras para añadirlas a tu plan.</string>
+</resources>
